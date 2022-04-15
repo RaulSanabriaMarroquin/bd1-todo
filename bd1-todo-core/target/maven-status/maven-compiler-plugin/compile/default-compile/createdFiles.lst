@@ -1,0 +1,6 @@
+tec\bd\App.class
+tec\bd\ApplicationContext.class
+tec\bd\todo\Todo.class
+tec\bd\todo\repository\TodoRepository.class
+tec\bd\todo\Status.class
+tec\bd\todo\TodoRecord.class
