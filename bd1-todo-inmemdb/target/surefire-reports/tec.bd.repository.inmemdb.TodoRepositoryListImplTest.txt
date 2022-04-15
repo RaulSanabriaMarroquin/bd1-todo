@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: tec.bd.repository.inmemdb.TodoRepositoryListImplTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.748 s <<< FAILURE! - in tec.bd.repository.inmemdb.TodoRepositoryListImplTest
+whenIdNotFoundThenNull  Time elapsed: 0.582 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because the return value of "tec.bd.todo.TodoRecord.getId()" is null
+	at tec.bd.repository.inmemdb.TodoRepositoryListImplTest.whenIdNotFoundThenNull(TodoRepositoryListImplTest.java:52)
+
+remove  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because the return value of "tec.bd.todo.TodoRecord.getId()" is null
+	at tec.bd.repository.inmemdb.TodoRepositoryListImplTest.remove(TodoRepositoryListImplTest.java:75)
+
+findById  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because the return value of "tec.bd.todo.TodoRecord.getId()" is null
+	at tec.bd.repository.inmemdb.TodoRepositoryListImplTest.findById(TodoRepositoryListImplTest.java:43)
+
