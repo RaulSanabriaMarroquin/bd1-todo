@@ -1,0 +1,4 @@
+tec\bd\Api.class
+tec\bd\controller\TodoController.class
+tec\bd\Message.class
+tec\bd\WebApplicationContext.class
