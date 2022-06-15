@@ -20,9 +20,9 @@ public interface TodoRepository {
 
     TodoRecord update(TodoRecord todoRecord);
 
-    TodoRecord findByPatternInTitle(String textToSearch);
+    List<TodoRecord> findByPatternInTitle(String textToSearch);
 
-    TodoRecord findByBetweenStartDates(Date startDate, Date endDate);
+    List<TodoRecord> findByBetweenStartDates(Date startDate, Date endDate);
 
 
 }
