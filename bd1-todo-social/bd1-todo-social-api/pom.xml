@@ -21,6 +21,7 @@
     <logback.version>1.2.3</logback.version>
     <spark.version>2.9.3</spark.version>
     <hikari.version>5.0.1</hikari.version>
+    <retrofit.version>2.3.0</retrofit.version>
     <mysql-connector.version>8.0.22</mysql-connector.version>
   </properties>
 
@@ -58,6 +59,18 @@
       <groupId>com.zaxxer</groupId>
       <artifactId>HikariCP</artifactId>
       <version>${hikari.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>${retrofit.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>converter-gson</artifactId>
+      <version>${retrofit.version}</version>
     </dependency>
   </dependencies>
 

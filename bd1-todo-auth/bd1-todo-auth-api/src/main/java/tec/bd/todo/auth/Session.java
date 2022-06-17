@@ -18,16 +18,16 @@ public class Session {
 
     }
 
-//    public Session(String sessionId, SessionStatus status) {
-//        Objects.requireNonNull(sessionId);
-//        Objects.requireNonNull(status);
-//        this.sessionId = sessionId;
-//        this.status = status;
-//    }
-
     public Session(String sessionId, SessionStatus status) {
-        this(null, sessionId, status, null);
+        Objects.requireNonNull(sessionId);
+        Objects.requireNonNull(status);
+        this.sessionId = sessionId;
+        this.status = status;
     }
+
+    //public Session(String sessionId, SessionStatus status) {
+   //     this(null, sessionId, status, null);
+    //}
 
     public Session(String clientId, String sessionId, SessionStatus status, Date createdAt) {
         this.clientId = clientId;
